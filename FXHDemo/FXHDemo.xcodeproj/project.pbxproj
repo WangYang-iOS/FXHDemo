@@ -12,6 +12,10 @@
 		D15138472092EF49000EF957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15138452092EF49000EF957 /* Main.storyboard */; };
 		D15138492092EF4A000EF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15138482092EF4A000EF957 /* Assets.xcassets */; };
 		D151384C2092EF4A000EF957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */; };
+		D15138552092FDC4000EF957 /* APIHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138542092FDC4000EF957 /* APIHeader.swift */; };
+		D151385B2093033E000EF957 /* CommenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151385A2093033E000EF957 /* CommenHeader.swift */; };
+		D151385F20930463000EF957 /* YYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151385E20930463000EF957 /* YYExtension.swift */; };
+		D1513861209307F7000EF957 /* EnumHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1513860209307F7000EF957 /* EnumHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,11 @@
 		D15138482092EF4A000EF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D151384B2092EF4A000EF957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D151384D2092EF4A000EF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15138542092FDC4000EF957 /* APIHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHeader.swift; sourceTree = "<group>"; };
+		D15138562092FE8B000EF957 /* FXHDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FXHDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		D151385A2093033E000EF957 /* CommenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommenHeader.swift; sourceTree = "<group>"; };
+		D151385E20930463000EF957 /* YYExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYExtension.swift; sourceTree = "<group>"; };
+		D1513860209307F7000EF957 /* EnumHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +65,15 @@
 			children = (
 				D15138412092EF49000EF957 /* AppDelegate.swift */,
 				D15138432092EF49000EF957 /* ViewController.swift */,
+				D15138542092FDC4000EF957 /* APIHeader.swift */,
+				D151385E20930463000EF957 /* YYExtension.swift */,
+				D151385A2093033E000EF957 /* CommenHeader.swift */,
+				D1513860209307F7000EF957 /* EnumHeader.swift */,
 				D15138452092EF49000EF957 /* Main.storyboard */,
 				D15138482092EF4A000EF957 /* Assets.xcassets */,
 				D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */,
 				D151384D2092EF4A000EF957 /* Info.plist */,
+				D15138562092FE8B000EF957 /* FXHDemo-Bridging-Header.h */,
 			);
 			path = FXHDemo;
 			sourceTree = "<group>";
@@ -96,6 +110,7 @@
 				TargetAttributes = {
 					D151383D2092EF49000EF957 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -135,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D151385F20930463000EF957 /* YYExtension.swift in Sources */,
+				D15138552092FDC4000EF957 /* APIHeader.swift in Sources */,
+				D151385B2093033E000EF957 /* CommenHeader.swift in Sources */,
 				D15138442092EF49000EF957 /* ViewController.swift in Sources */,
 				D15138422092EF49000EF957 /* AppDelegate.swift in Sources */,
+				D1513861209307F7000EF957 /* EnumHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF5828SVH4;
 				INFOPLIST_FILE = FXHDemo/Info.plist;
@@ -289,6 +309,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiqu.swift.test.FXHDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FXHDemo/FXHDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF5828SVH4;
 				INFOPLIST_FILE = FXHDemo/Info.plist;
@@ -307,6 +330,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiqu.swift.test.FXHDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FXHDemo/FXHDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
