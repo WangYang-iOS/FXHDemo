@@ -11,7 +11,7 @@ import Alamofire
 
 class HQNetworkManager: NSObject {
     func postRequest(param:[String:Any],url:String,callback:@escaping ((_ success:Bool,_ response:[String:Any]?)->())) -> () {
-        let header : HTTPHeaders = [:]
+        let header : HTTPHeaders = ["version":APP_VERSION,"device_type":"1","sysVersion":PHONE_SYSTEM]
         Alamofire.request(kDOMAIN + url, method: .post, parameters: param, encoding: URLEncoding.default, headers: header).responseJSON { (result) in
             switch result.result.isSuccess {
             case true :

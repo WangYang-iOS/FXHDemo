@@ -24,6 +24,7 @@
 		D134295A209AB73F0000D88C /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1342959209AB73F0000D88C /* MJRefresh.framework */; };
 		D134295C209AB73F0000D88C /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D134295B209AB73F0000D88C /* SDWebImage.framework */; };
 		D1342963209ABBD70000D88C /* HQNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342962209ABBD70000D88C /* HQNetworkManager.swift */; };
+		D1342965209ADFD20000D88C /* HQKeyChainTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342964209ADFD20000D88C /* HQKeyChainTools.swift */; };
 		D15138422092EF49000EF957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138412092EF49000EF957 /* AppDelegate.swift */; };
 		D15138492092EF4A000EF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15138482092EF4A000EF957 /* Assets.xcassets */; };
 		D151384C2092EF4A000EF957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */; };
@@ -55,6 +56,7 @@
 		D1342959209AB73F0000D88C /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D134295B209AB73F0000D88C /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1342962209ABBD70000D88C /* HQNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNetworkManager.swift; sourceTree = "<group>"; };
+		D1342964209ADFD20000D88C /* HQKeyChainTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQKeyChainTools.swift; sourceTree = "<group>"; };
 		D151383E2092EF49000EF957 /* FXHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15138412092EF49000EF957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D15138482092EF4A000EF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				D1342962209ABBD70000D88C /* HQNetworkManager.swift */,
+				D1342964209ADFD20000D88C /* HQKeyChainTools.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				D1342942209AB1E10000D88C /* HQBaseModel.swift in Sources */,
 				D1342944209AB1EC0000D88C /* HQBaseViewModel.swift in Sources */,
 				D1342924209AAC880000D88C /* HQBaseViewController.swift in Sources */,
+				D1342965209ADFD20000D88C /* HQKeyChainTools.swift in Sources */,
 				D15138552092FDC4000EF957 /* APIHeader.swift in Sources */,
 				D134294C209AB2840000D88C /* HQGeneralizeVC.swift in Sources */,
 				D134294A209AB2720000D88C /* HQCommunityVC.swift in Sources */,

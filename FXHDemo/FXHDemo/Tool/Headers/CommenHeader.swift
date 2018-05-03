@@ -9,6 +9,11 @@
 import UIKit
 
 let SPACE_NAME = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
+let APP_VERSION = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+let IDENTIFIER = UIDevice.current.identifierForVendor?.uuidString ?? ""
+let PHONE_SYSTEM = UIDevice.current.systemVersion 
+
+
 let SCREEN_WIDTH = UIScreen.main.bounds.size.width
 let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
 let HEIGHT_MULTIPLE = UIScreen.main.bounds.size.height/667.0
