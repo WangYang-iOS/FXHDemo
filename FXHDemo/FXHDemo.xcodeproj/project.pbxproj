@@ -126,13 +126,6 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
-		D1342929209AAE120000D88C /* lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 		D134292A209AAE180000D88C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,7 +338,6 @@
 		D15138402092EF49000EF957 /* FXHDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D1342929209AAE120000D88C /* lib */,
 				D134292A209AAE180000D88C /* Tool */,
 				D1342927209AAE020000D88C /* AppDelegate */,
 				D1342928209AAE0C0000D88C /* Class */,
