@@ -28,7 +28,6 @@
 		D1342967209AFA8A0000D88C /* HQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342966209AFA8A0000D88C /* HQUser.swift */; };
 		D15138422092EF49000EF957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138412092EF49000EF957 /* AppDelegate.swift */; };
 		D15138492092EF4A000EF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15138482092EF4A000EF957 /* Assets.xcassets */; };
-		D151384C2092EF4A000EF957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */; };
 		D15138552092FDC4000EF957 /* APIHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138542092FDC4000EF957 /* APIHeader.swift */; };
 		D151385B2093033E000EF957 /* CommenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151385A2093033E000EF957 /* CommenHeader.swift */; };
 		D151385F20930463000EF957 /* YYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151385E20930463000EF957 /* YYExtension.swift */; };
@@ -62,7 +61,6 @@
 		D151383E2092EF49000EF957 /* FXHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15138412092EF49000EF957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D15138482092EF4A000EF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D151384B2092EF4A000EF957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D151384D2092EF4A000EF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D15138542092FDC4000EF957 /* APIHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHeader.swift; sourceTree = "<group>"; };
 		D151385A2093033E000EF957 /* CommenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommenHeader.swift; sourceTree = "<group>"; };
@@ -359,7 +357,6 @@
 				D1342928209AAE0C0000D88C /* Class */,
 				D1342927209AAE020000D88C /* AppDelegate */,
 				D15138482092EF4A000EF957 /* Assets.xcassets */,
-				D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */,
 				D151384D2092EF4A000EF957 /* Info.plist */,
 			);
 			path = FXHDemo;
@@ -427,7 +424,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D151384C2092EF4A000EF957 /* LaunchScreen.storyboard in Resources */,
 				D15138492092EF4A000EF957 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,17 +506,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D151384B2092EF4A000EF957 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D151384E2092EF4A000EF957 /* Debug */ = {
@@ -642,6 +627,7 @@
 			baseConfigurationReference = 51D52315C0CF28A254F20B68 /* Pods-FXHDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF5828SVH4;
@@ -656,7 +642,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -665,6 +651,7 @@
 			baseConfigurationReference = 574A666DBDB6DDF13CD1EDAA /* Pods-FXHDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF5828SVH4;
@@ -678,7 +665,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

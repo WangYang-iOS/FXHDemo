@@ -9,9 +9,10 @@
 import UIKit
 
 class HQBaseViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.white;
+        self.automaticallyAdjustsScrollViewInsets = false;
     }
 
     override func didReceiveMemoryWarning() {
