@@ -17,6 +17,12 @@
 		D134294C209AB2840000D88C /* HQGeneralizeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134294B209AB2840000D88C /* HQGeneralizeVC.swift */; };
 		D134294E209AB2920000D88C /* HQMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134294D209AB2920000D88C /* HQMineVC.swift */; };
 		D1342950209AB2E70000D88C /* HQNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134294F209AB2E70000D88C /* HQNavigationController.swift */; };
+		D1342952209AB73F0000D88C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1342951209AB73F0000D88C /* Alamofire.framework */; };
+		D1342954209AB73F0000D88C /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1342953209AB73F0000D88C /* Masonry.framework */; };
+		D1342956209AB73F0000D88C /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1342955209AB73F0000D88C /* MBProgressHUD.framework */; };
+		D1342958209AB73F0000D88C /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1342957209AB73F0000D88C /* MJExtension.framework */; };
+		D134295A209AB73F0000D88C /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1342959209AB73F0000D88C /* MJRefresh.framework */; };
+		D134295C209AB73F0000D88C /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D134295B209AB73F0000D88C /* SDWebImage.framework */; };
 		D15138422092EF49000EF957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138412092EF49000EF957 /* AppDelegate.swift */; };
 		D15138492092EF4A000EF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15138482092EF4A000EF957 /* Assets.xcassets */; };
 		D151384C2092EF4A000EF957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */; };
@@ -41,13 +47,18 @@
 		D134294B209AB2840000D88C /* HQGeneralizeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQGeneralizeVC.swift; sourceTree = "<group>"; };
 		D134294D209AB2920000D88C /* HQMineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMineVC.swift; sourceTree = "<group>"; };
 		D134294F209AB2E70000D88C /* HQNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNavigationController.swift; sourceTree = "<group>"; };
+		D1342951209AB73F0000D88C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1342953209AB73F0000D88C /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1342955209AB73F0000D88C /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1342957209AB73F0000D88C /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1342959209AB73F0000D88C /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D134295B209AB73F0000D88C /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D151383E2092EF49000EF957 /* FXHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15138412092EF49000EF957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D15138482092EF4A000EF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D151384B2092EF4A000EF957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D151384D2092EF4A000EF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D15138542092FDC4000EF957 /* APIHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHeader.swift; sourceTree = "<group>"; };
-		D15138562092FE8B000EF957 /* FXHDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FXHDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		D151385A2093033E000EF957 /* CommenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommenHeader.swift; sourceTree = "<group>"; };
 		D151385E20930463000EF957 /* YYExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYExtension.swift; sourceTree = "<group>"; };
 		D1513860209307F7000EF957 /* EnumHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumHeader.swift; sourceTree = "<group>"; };
@@ -58,6 +69,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1342952209AB73F0000D88C /* Alamofire.framework in Frameworks */,
+				D1342954209AB73F0000D88C /* Masonry.framework in Frameworks */,
+				D1342956209AB73F0000D88C /* MBProgressHUD.framework in Frameworks */,
+				D1342958209AB73F0000D88C /* MJExtension.framework in Frameworks */,
+				D134295A209AB73F0000D88C /* MJRefresh.framework in Frameworks */,
+				D134295C209AB73F0000D88C /* SDWebImage.framework in Frameworks */,
 				DC66E299489F9F164E9D6083 /* Pods_FXHDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +85,12 @@
 		A15BB43F22FC942132ED2FD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1342951209AB73F0000D88C /* Alamofire.framework */,
+				D1342953209AB73F0000D88C /* Masonry.framework */,
+				D1342955209AB73F0000D88C /* MBProgressHUD.framework */,
+				D1342957209AB73F0000D88C /* MJExtension.framework */,
+				D1342959209AB73F0000D88C /* MJRefresh.framework */,
+				D134295B209AB73F0000D88C /* SDWebImage.framework */,
 				16EEF9626DED3846554E8854 /* Pods_FXHDemo.framework */,
 			);
 			name = Frameworks;
@@ -125,7 +148,6 @@
 				D15138542092FDC4000EF957 /* APIHeader.swift */,
 				D1513860209307F7000EF957 /* EnumHeader.swift */,
 				D151385A2093033E000EF957 /* CommenHeader.swift */,
-				D15138562092FE8B000EF957 /* FXHDemo-Bridging-Header.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -613,10 +635,13 @@
 				DEVELOPMENT_TEAM = MF5828SVH4;
 				INFOPLIST_FILE = FXHDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiqu.swift.test.FXHDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FXHDemo/FXHDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -633,10 +658,13 @@
 				DEVELOPMENT_TEAM = MF5828SVH4;
 				INFOPLIST_FILE = FXHDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiqu.swift.test.FXHDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FXHDemo/FXHDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
