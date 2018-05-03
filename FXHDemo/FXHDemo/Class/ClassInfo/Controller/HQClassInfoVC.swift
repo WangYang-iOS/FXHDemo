@@ -1,5 +1,5 @@
 //
-//  HQBaseViewController.swift
+//  HQClassInfoVC.swift
 //  FXHDemo
 //
 //  Created by wangyang on 2018/5/3.
@@ -8,13 +8,9 @@
 
 import UIKit
 
-class HQBaseViewController: UIViewController {
-
+class HQClassInfoVC: HQBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        
     }
 }

@@ -1,5 +1,5 @@
 //
-//  HQBaseViewController.swift
+//  HQNavigationController.swift
 //  FXHDemo
 //
 //  Created by wangyang on 2018/5/3.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HQBaseViewController: UIViewController {
+class HQNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

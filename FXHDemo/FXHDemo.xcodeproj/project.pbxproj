@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		D1342924209AAC880000D88C /* HQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342923209AAC880000D88C /* HQBaseViewController.swift */; };
 		D1342926209AAC9F0000D88C /* HQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342925209AAC9F0000D88C /* HQTabBarController.swift */; };
+		D1342942209AB1E10000D88C /* HQBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342941209AB1E10000D88C /* HQBaseModel.swift */; };
+		D1342944209AB1EC0000D88C /* HQBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342943209AB1EC0000D88C /* HQBaseViewModel.swift */; };
+		D1342946209AB2130000D88C /* HQMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342945209AB2130000D88C /* HQMainVC.swift */; };
+		D1342948209AB2590000D88C /* HQClassInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342947209AB2590000D88C /* HQClassInfoVC.swift */; };
+		D134294A209AB2720000D88C /* HQCommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342949209AB2720000D88C /* HQCommunityVC.swift */; };
+		D134294C209AB2840000D88C /* HQGeneralizeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134294B209AB2840000D88C /* HQGeneralizeVC.swift */; };
+		D134294E209AB2920000D88C /* HQMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134294D209AB2920000D88C /* HQMineVC.swift */; };
+		D1342950209AB2E70000D88C /* HQNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D134294F209AB2E70000D88C /* HQNavigationController.swift */; };
 		D15138422092EF49000EF957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138412092EF49000EF957 /* AppDelegate.swift */; };
 		D15138492092EF4A000EF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15138482092EF4A000EF957 /* Assets.xcassets */; };
 		D151384C2092EF4A000EF957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */; };
@@ -25,6 +33,14 @@
 		574A666DBDB6DDF13CD1EDAA /* Pods-FXHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXHDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXHDemo/Pods-FXHDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D1342923209AAC880000D88C /* HQBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQBaseViewController.swift; sourceTree = "<group>"; };
 		D1342925209AAC9F0000D88C /* HQTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTabBarController.swift; sourceTree = "<group>"; };
+		D1342941209AB1E10000D88C /* HQBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQBaseModel.swift; sourceTree = "<group>"; };
+		D1342943209AB1EC0000D88C /* HQBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQBaseViewModel.swift; sourceTree = "<group>"; };
+		D1342945209AB2130000D88C /* HQMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMainVC.swift; sourceTree = "<group>"; };
+		D1342947209AB2590000D88C /* HQClassInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQClassInfoVC.swift; sourceTree = "<group>"; };
+		D1342949209AB2720000D88C /* HQCommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQCommunityVC.swift; sourceTree = "<group>"; };
+		D134294B209AB2840000D88C /* HQGeneralizeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQGeneralizeVC.swift; sourceTree = "<group>"; };
+		D134294D209AB2920000D88C /* HQMineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMineVC.swift; sourceTree = "<group>"; };
+		D134294F209AB2E70000D88C /* HQNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNavigationController.swift; sourceTree = "<group>"; };
 		D151383E2092EF49000EF957 /* FXHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15138412092EF49000EF957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D15138482092EF4A000EF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				D134292C209AAE7D0000D88C /* Base */,
+				D1342935209AB19D0000D88C /* Main */,
+				D1342939209AB19D0000D88C /* ClassInfo */,
+				D1342931209AB19C0000D88C /* Community */,
+				D134293D209AB19D0000D88C /* Generalize */,
+				D134292D209AB19C0000D88C /* Mine */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -113,9 +134,172 @@
 			isa = PBXGroup;
 			children = (
 				D1342925209AAC9F0000D88C /* HQTabBarController.swift */,
+				D134294F209AB2E70000D88C /* HQNavigationController.swift */,
 				D1342923209AAC880000D88C /* HQBaseViewController.swift */,
+				D1342941209AB1E10000D88C /* HQBaseModel.swift */,
+				D1342943209AB1EC0000D88C /* HQBaseViewModel.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		D134292D209AB19C0000D88C /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				D134292E209AB19C0000D88C /* Controller */,
+				D134292F209AB19C0000D88C /* View */,
+				D1342930209AB19C0000D88C /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		D134292E209AB19C0000D88C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D134294D209AB2920000D88C /* HQMineVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D134292F209AB19C0000D88C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1342930209AB19C0000D88C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D1342931209AB19C0000D88C /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				D1342932209AB19C0000D88C /* Controller */,
+				D1342933209AB19C0000D88C /* View */,
+				D1342934209AB19C0000D88C /* ViewModel */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		D1342932209AB19C0000D88C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1342949209AB2720000D88C /* HQCommunityVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1342933209AB19C0000D88C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1342934209AB19C0000D88C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D1342935209AB19D0000D88C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1342936209AB19D0000D88C /* Controller */,
+				D1342937209AB19D0000D88C /* View */,
+				D1342938209AB19D0000D88C /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D1342936209AB19D0000D88C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1342945209AB2130000D88C /* HQMainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1342937209AB19D0000D88C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1342938209AB19D0000D88C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D1342939209AB19D0000D88C /* ClassInfo */ = {
+			isa = PBXGroup;
+			children = (
+				D134293A209AB19D0000D88C /* Controller */,
+				D134293B209AB19D0000D88C /* View */,
+				D134293C209AB19D0000D88C /* ViewModel */,
+			);
+			path = ClassInfo;
+			sourceTree = "<group>";
+		};
+		D134293A209AB19D0000D88C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1342947209AB2590000D88C /* HQClassInfoVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D134293B209AB19D0000D88C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D134293C209AB19D0000D88C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D134293D209AB19D0000D88C /* Generalize */ = {
+			isa = PBXGroup;
+			children = (
+				D134293E209AB19D0000D88C /* Controller */,
+				D134293F209AB19D0000D88C /* View */,
+				D1342940209AB19D0000D88C /* ViewModel */,
+			);
+			path = Generalize;
+			sourceTree = "<group>";
+		};
+		D134293E209AB19D0000D88C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D134294B209AB2840000D88C /* HQGeneralizeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D134293F209AB19D0000D88C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1342940209AB19D0000D88C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		D15138352092EF49000EF957 = {
@@ -178,6 +362,7 @@
 		D15138362092EF49000EF957 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HQ;
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = HangzhouHaiqu;
@@ -263,10 +448,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D151385F20930463000EF957 /* YYExtension.swift in Sources */,
+				D1342950209AB2E70000D88C /* HQNavigationController.swift in Sources */,
+				D1342942209AB1E10000D88C /* HQBaseModel.swift in Sources */,
+				D1342944209AB1EC0000D88C /* HQBaseViewModel.swift in Sources */,
 				D1342924209AAC880000D88C /* HQBaseViewController.swift in Sources */,
 				D15138552092FDC4000EF957 /* APIHeader.swift in Sources */,
+				D134294C209AB2840000D88C /* HQGeneralizeVC.swift in Sources */,
+				D134294A209AB2720000D88C /* HQCommunityVC.swift in Sources */,
 				D151385B2093033E000EF957 /* CommenHeader.swift in Sources */,
+				D134294E209AB2920000D88C /* HQMineVC.swift in Sources */,
+				D1342946209AB2130000D88C /* HQMainVC.swift in Sources */,
 				D1342926209AAC9F0000D88C /* HQTabBarController.swift in Sources */,
+				D1342948209AB2590000D88C /* HQClassInfoVC.swift in Sources */,
 				D15138422092EF49000EF957 /* AppDelegate.swift in Sources */,
 				D1513861209307F7000EF957 /* EnumHeader.swift in Sources */,
 			);
