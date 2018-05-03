@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1342924209AAC880000D88C /* HQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342923209AAC880000D88C /* HQBaseViewController.swift */; };
+		D1342926209AAC9F0000D88C /* HQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342925209AAC9F0000D88C /* HQTabBarController.swift */; };
 		D15138422092EF49000EF957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138412092EF49000EF957 /* AppDelegate.swift */; };
-		D15138442092EF49000EF957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138432092EF49000EF957 /* ViewController.swift */; };
-		D15138472092EF49000EF957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15138452092EF49000EF957 /* Main.storyboard */; };
 		D15138492092EF4A000EF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15138482092EF4A000EF957 /* Assets.xcassets */; };
 		D151384C2092EF4A000EF957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */; };
 		D15138552092FDC4000EF957 /* APIHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138542092FDC4000EF957 /* APIHeader.swift */; };
@@ -23,10 +23,10 @@
 		16EEF9626DED3846554E8854 /* Pods_FXHDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FXHDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D52315C0CF28A254F20B68 /* Pods-FXHDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXHDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FXHDemo/Pods-FXHDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		574A666DBDB6DDF13CD1EDAA /* Pods-FXHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXHDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXHDemo/Pods-FXHDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D1342923209AAC880000D88C /* HQBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQBaseViewController.swift; sourceTree = "<group>"; };
+		D1342925209AAC9F0000D88C /* HQTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTabBarController.swift; sourceTree = "<group>"; };
 		D151383E2092EF49000EF957 /* FXHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15138412092EF49000EF957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D15138432092EF49000EF957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D15138462092EF49000EF957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D15138482092EF4A000EF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D151384B2092EF4A000EF957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D151384D2092EF4A000EF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +66,58 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D1342927209AAE020000D88C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D15138412092EF49000EF957 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D1342928209AAE0C0000D88C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D134292C209AAE7D0000D88C /* Base */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D1342929209AAE120000D88C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D134292A209AAE180000D88C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D151385E20930463000EF957 /* YYExtension.swift */,
+				D134292B209AAE390000D88C /* Headers */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D134292B209AAE390000D88C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D15138542092FDC4000EF957 /* APIHeader.swift */,
+				D1513860209307F7000EF957 /* EnumHeader.swift */,
+				D151385A2093033E000EF957 /* CommenHeader.swift */,
+				D15138562092FE8B000EF957 /* FXHDemo-Bridging-Header.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		D134292C209AAE7D0000D88C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D1342925209AAC9F0000D88C /* HQTabBarController.swift */,
+				D1342923209AAC880000D88C /* HQBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		D15138352092EF49000EF957 = {
 			isa = PBXGroup;
 			children = (
@@ -87,17 +139,13 @@
 		D15138402092EF49000EF957 /* FXHDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D15138412092EF49000EF957 /* AppDelegate.swift */,
-				D15138432092EF49000EF957 /* ViewController.swift */,
-				D15138542092FDC4000EF957 /* APIHeader.swift */,
-				D151385E20930463000EF957 /* YYExtension.swift */,
-				D151385A2093033E000EF957 /* CommenHeader.swift */,
-				D1513860209307F7000EF957 /* EnumHeader.swift */,
-				D15138452092EF49000EF957 /* Main.storyboard */,
+				D1342929209AAE120000D88C /* lib */,
+				D134292A209AAE180000D88C /* Tool */,
+				D1342927209AAE020000D88C /* AppDelegate */,
+				D1342928209AAE0C0000D88C /* Class */,
 				D15138482092EF4A000EF957 /* Assets.xcassets */,
 				D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */,
 				D151384D2092EF4A000EF957 /* Info.plist */,
-				D15138562092FE8B000EF957 /* FXHDemo-Bridging-Header.h */,
 			);
 			path = FXHDemo;
 			sourceTree = "<group>";
@@ -165,7 +213,6 @@
 			files = (
 				D151384C2092EF4A000EF957 /* LaunchScreen.storyboard in Resources */,
 				D15138492092EF4A000EF957 /* Assets.xcassets in Resources */,
-				D15138472092EF49000EF957 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,9 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D151385F20930463000EF957 /* YYExtension.swift in Sources */,
+				D1342924209AAC880000D88C /* HQBaseViewController.swift in Sources */,
 				D15138552092FDC4000EF957 /* APIHeader.swift in Sources */,
 				D151385B2093033E000EF957 /* CommenHeader.swift in Sources */,
-				D15138442092EF49000EF957 /* ViewController.swift in Sources */,
+				D1342926209AAC9F0000D88C /* HQTabBarController.swift in Sources */,
 				D15138422092EF49000EF957 /* AppDelegate.swift in Sources */,
 				D1513861209307F7000EF957 /* EnumHeader.swift in Sources */,
 			);
@@ -227,14 +275,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D15138452092EF49000EF957 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D15138462092EF49000EF957 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D151384A2092EF4A000EF957 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -369,13 +409,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF5828SVH4;
 				INFOPLIST_FILE = FXHDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiqu.swift.test.FXHDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FXHDemo/FXHDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -388,12 +432,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF5828SVH4;
 				INFOPLIST_FILE = FXHDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.haiqu.swift.test.FXHDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FXHDemo/FXHDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
