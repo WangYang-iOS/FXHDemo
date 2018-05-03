@@ -22,12 +22,11 @@ class HQKeyChainTools: NSObject {
 //        let keychainQuery = self.getKeychainQuery(key: key)
 //        keychainQuery.setObject(kCFBooleanTrue, forKey: kSecReturnData as NSString)
 //        keychainQuery.setObject(kCFBooleanTrue, forKey: kSecReturnAttributes as NSString)
-//        var queryResult: Unmanaged<AnyObject>?
-//        let status = SecItemCopyMatching(keychainQuery,queryResult as CFTypeRef)
-//        let opaque = queryResult?.toOpaque()
+//        var ref : CFTypeRef? = nil
+//        let status = SecItemCopyMatching(keychainQuery,&ref)
 //        var contentsOfKeychain: NSString?
-//        if let op = opaque {
-//            let retrievedData = Unmanaged<NSDictionary>.fromOpaque(op).takeUnretainedValue()
+//        if status == errSecSuccess {
+//            let retrievedData = Unmanaged<NSDictionary>.fromOpaque(ref as! UnsafeRawPointer).takeUnretainedValue()
 //            let passwordData = retrievedData.object(forKey: kSecValueData) as! NSData
 //            let passwordString = NSString(data: passwordData as Data, encoding: String.Encoding.utf8.rawValue)!
 //            return passwordString;
