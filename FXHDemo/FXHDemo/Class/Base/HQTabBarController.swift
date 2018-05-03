@@ -31,7 +31,7 @@ class HQTabBarController: UITabBarController {
                 return HQNavigationController()
         }
         let vc = vcClass.init()
-        let tabBarItem = UITabBarItem(title: title, image: UIImage(named: image), selectedImage: UIImage(named: selectedImage))
+        let tabBarItem = UITabBarItem(title: title, image: UIImage(named: image)?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: selectedImage)?.withRenderingMode(.alwaysOriginal))
         vc.tabBarItem = tabBarItem
         let nav = HQNavigationController.init(rootViewController: vc)
         nav.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -3)

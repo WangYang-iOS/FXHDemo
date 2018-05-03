@@ -26,8 +26,8 @@
 		D1342963209ABBD70000D88C /* HQNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342962209ABBD70000D88C /* HQNetworkManager.swift */; };
 		D1342965209ADFD20000D88C /* HQKeyChainTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342964209ADFD20000D88C /* HQKeyChainTools.swift */; };
 		D1342967209AFA8A0000D88C /* HQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342966209AFA8A0000D88C /* HQUser.swift */; };
+		D1342969209B10C60000D88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1342968209B10C60000D88C /* Assets.xcassets */; };
 		D15138422092EF49000EF957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138412092EF49000EF957 /* AppDelegate.swift */; };
-		D15138492092EF4A000EF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15138482092EF4A000EF957 /* Assets.xcassets */; };
 		D15138552092FDC4000EF957 /* APIHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138542092FDC4000EF957 /* APIHeader.swift */; };
 		D151385B2093033E000EF957 /* CommenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151385A2093033E000EF957 /* CommenHeader.swift */; };
 		D151385F20930463000EF957 /* YYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151385E20930463000EF957 /* YYExtension.swift */; };
@@ -58,9 +58,9 @@
 		D1342962209ABBD70000D88C /* HQNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNetworkManager.swift; sourceTree = "<group>"; };
 		D1342964209ADFD20000D88C /* HQKeyChainTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQKeyChainTools.swift; sourceTree = "<group>"; };
 		D1342966209AFA8A0000D88C /* HQUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQUser.swift; sourceTree = "<group>"; };
+		D1342968209B10C60000D88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D151383E2092EF49000EF957 /* FXHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15138412092EF49000EF957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D15138482092EF4A000EF957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D151384D2092EF4A000EF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D15138542092FDC4000EF957 /* APIHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHeader.swift; sourceTree = "<group>"; };
 		D151385A2093033E000EF957 /* CommenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommenHeader.swift; sourceTree = "<group>"; };
@@ -113,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				D15138412092EF49000EF957 /* AppDelegate.swift */,
+				D1342968209B10C60000D88C /* Assets.xcassets */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -356,7 +357,6 @@
 				D134292A209AAE180000D88C /* Tool */,
 				D1342928209AAE0C0000D88C /* Class */,
 				D1342927209AAE020000D88C /* AppDelegate */,
-				D15138482092EF4A000EF957 /* Assets.xcassets */,
 				D151384D2092EF4A000EF957 /* Info.plist */,
 			);
 			path = FXHDemo;
@@ -424,7 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15138492092EF4A000EF957 /* Assets.xcassets in Resources */,
+				D1342969209B10C60000D88C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +642,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -665,7 +665,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
