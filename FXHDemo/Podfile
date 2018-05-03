@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+use_frameworks!
+target 'FXHDemo' do
+pod 'SDWebImage', '~> 4.3.3'
+end

@@ -1,0 +1,6 @@
+framework module Pods_FXHDemo {
+  umbrella header "Pods-FXHDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
