@@ -27,6 +27,7 @@
 		D1342965209ADFD20000D88C /* HQKeyChainTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342964209ADFD20000D88C /* HQKeyChainTools.swift */; };
 		D1342967209AFA8A0000D88C /* HQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342966209AFA8A0000D88C /* HQUser.swift */; };
 		D1342969209B10C60000D88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1342968209B10C60000D88C /* Assets.xcassets */; };
+		D1486080209BF04500D5AC8A /* HQHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148607F209BF04500D5AC8A /* HQHomeModel.swift */; };
 		D15138422092EF49000EF957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138412092EF49000EF957 /* AppDelegate.swift */; };
 		D15138552092FDC4000EF957 /* APIHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138542092FDC4000EF957 /* APIHeader.swift */; };
 		D151385B2093033E000EF957 /* CommenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151385A2093033E000EF957 /* CommenHeader.swift */; };
@@ -59,6 +60,7 @@
 		D1342964209ADFD20000D88C /* HQKeyChainTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQKeyChainTools.swift; sourceTree = "<group>"; };
 		D1342966209AFA8A0000D88C /* HQUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQUser.swift; sourceTree = "<group>"; };
 		D1342968209B10C60000D88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D148607F209BF04500D5AC8A /* HQHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQHomeModel.swift; sourceTree = "<group>"; };
 		D151383E2092EF49000EF957 /* FXHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15138412092EF49000EF957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D151384D2092EF4A000EF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		D1342938209AB19D0000D88C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D148607F209BF04500D5AC8A /* HQHomeModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				D151385F20930463000EF957 /* YYExtension.swift in Sources */,
 				D1342950209AB2E70000D88C /* HQNavigationController.swift in Sources */,
 				D1342942209AB1E10000D88C /* HQBaseModel.swift in Sources */,
+				D1486080209BF04500D5AC8A /* HQHomeModel.swift in Sources */,
 				D1342944209AB1EC0000D88C /* HQBaseViewModel.swift in Sources */,
 				D1342924209AAC880000D88C /* HQBaseViewController.swift in Sources */,
 				D1342965209ADFD20000D88C /* HQKeyChainTools.swift in Sources */,

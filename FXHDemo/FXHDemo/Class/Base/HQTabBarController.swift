@@ -25,6 +25,9 @@ class HQTabBarController: UITabBarController {
         self.tabBar.tintColor = UIColor.hexString(colorString: "d81b24")
     }
     
+    
+    
+    //初始化
     func createVC(className:String, title:String, image:String, selectedImage:String) -> HQNavigationController {
         guard
             let vcClass = NSClassFromString(SPACE_NAME + "." + className) as? UIViewController.Type else {
