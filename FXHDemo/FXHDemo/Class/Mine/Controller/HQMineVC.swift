@@ -9,7 +9,8 @@
 import UIKit
 
 class HQMineVC: HQBaseViewController {
-
+    var tableView = UITableView.init(frame: RECT(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIGHT - ), style: <#T##UITableViewStyle#>)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

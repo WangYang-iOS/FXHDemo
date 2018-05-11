@@ -9,7 +9,6 @@
 import UIKit
 
 class HQNavigationController: UINavigationController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationBar.isTranslucent = false;
