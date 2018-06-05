@@ -18,10 +18,10 @@ let SCREEN_HEIGHT = UIScreen.main.bounds.size.height
 let HEIGHT_MULTIPLE = UIScreen.main.bounds.size.height/667.0
 let WIDTH_MULTIPLE = UIScreen.main.bounds.size.width/375.0
 let STATUS_BAR_HEIGHT = UIApplication.shared.statusBarFrame.size.height
-let NAVIGATION_H = SCREEN_HEIGHT == 812.0 ? 88 : 64
-let TABBAR_H = 49.0
-let BOTTOM_H = 34.0
-let TOP_H = 24.0
+let NAVIGATION_H = SCREEN_HEIGHT == 812.0 ? CGFloat(88.0) : CGFloat(64.0)
+let TABBAR_H = CGFloat(49.0)
+let BOTTOM_H = CGFloat(34.0)
+let TOP_H = CGFloat(24.0)
 
 let Goods_MULTIPLE = CGFloat(628 / 750.0)
 

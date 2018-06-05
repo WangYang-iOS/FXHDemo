@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.backgroundColor = UIColor.white
         self.window?.rootViewController = HQTabBarController()
         self.window?.makeKeyAndVisible()
+        HQAPiManager.login()
         return true
     }
 

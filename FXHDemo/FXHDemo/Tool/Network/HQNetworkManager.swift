@@ -9,18 +9,19 @@
 import UIKit
 import Alamofire
 
-class HQNetworkManager: NSObject {
-    func postRequest(param:[String:Any],url:String,callback:@escaping ((_ success:Bool,_ response:[String:Any]?)->())) -> () {
+class HQNetworkManager {
+    class func postRequest(param:[String:Any],url:String,callback:@escaping ((_ success:Bool,_ response:[String:Any]?)->())) -> () {
         let header : HTTPHeaders = ["version":APP_VERSION,
                                     "device_type":"1",
                                     "sysVersion":PHONE_SYSTEM,
                                     "ts":"\(Date().timeIntervalSince1970)",
-                                    "uid":"0",
-                                    "token":"token",
-                                    "netType":"netType",
-                                    "gps":"gps",
-                                    "deviceName":"deviceName",
-                                    "device_code":"device_code"]
+                                    "uid":HQUser.share.memberId,
+                                    "token":HQUser.share.token,
+                                    "netType":"WIFI",
+                                    "gps":"30.295193, 120.004570",
+                                    "deviceName":"iPhone6Splus",
+                                    "device_code":YYMethods.uuid(phone: "13516829309")]
+        
         Alamofire.request(kDOMAIN + url, method: .post, parameters: param, encoding: URLEncoding.default, headers: header).responseJSON { (result) in
             switch result.result.isSuccess {
             case true :
@@ -36,7 +37,7 @@ class HQNetworkManager: NSObject {
                 }
                 break
             case false:
-                callback(true,["error":result.result.error as Any])
+                callback(false,["error":result.result.error as Any])
                 break
             }
         }

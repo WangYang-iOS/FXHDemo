@@ -27,6 +27,10 @@
 		D1342965209ADFD20000D88C /* HQKeyChainTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342964209ADFD20000D88C /* HQKeyChainTools.swift */; };
 		D1342967209AFA8A0000D88C /* HQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1342966209AFA8A0000D88C /* HQUser.swift */; };
 		D1342969209B10C60000D88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1342968209B10C60000D88C /* Assets.xcassets */; };
+		D13EEC5120C6212800B366BE /* HQMineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13EEC5020C6212800B366BE /* HQMineCell.swift */; };
+		D13EEC5320C62AC800B366BE /* YYMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13EEC5220C62AC800B366BE /* YYMethods.swift */; };
+		D13EEC5520C62CEA00B366BE /* HQAPiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13EEC5420C62CEA00B366BE /* HQAPiManager.swift */; };
+		D13EEC5720C630F200B366BE /* HQUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13EEC5620C630F200B366BE /* HQUserInfo.swift */; };
 		D1486080209BF04500D5AC8A /* HQHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148607F209BF04500D5AC8A /* HQHomeModel.swift */; };
 		D15138422092EF49000EF957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138412092EF49000EF957 /* AppDelegate.swift */; };
 		D15138552092FDC4000EF957 /* APIHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15138542092FDC4000EF957 /* APIHeader.swift */; };
@@ -60,6 +64,10 @@
 		D1342964209ADFD20000D88C /* HQKeyChainTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQKeyChainTools.swift; sourceTree = "<group>"; };
 		D1342966209AFA8A0000D88C /* HQUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQUser.swift; sourceTree = "<group>"; };
 		D1342968209B10C60000D88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D13EEC5020C6212800B366BE /* HQMineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMineCell.swift; sourceTree = "<group>"; };
+		D13EEC5220C62AC800B366BE /* YYMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYMethods.swift; sourceTree = "<group>"; };
+		D13EEC5420C62CEA00B366BE /* HQAPiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQAPiManager.swift; sourceTree = "<group>"; };
+		D13EEC5620C630F200B366BE /* HQUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQUserInfo.swift; sourceTree = "<group>"; };
 		D148607F209BF04500D5AC8A /* HQHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQHomeModel.swift; sourceTree = "<group>"; };
 		D151383E2092EF49000EF957 /* FXHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15138412092EF49000EF957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				D151385E20930463000EF957 /* YYExtension.swift */,
+				D13EEC5220C62AC800B366BE /* YYMethods.swift */,
 				D1342961209ABBBB0000D88C /* Network */,
 				D134292B209AAE390000D88C /* Headers */,
 			);
@@ -186,6 +195,7 @@
 		D134292F209AB19C0000D88C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D13EEC5020C6212800B366BE /* HQMineCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				D1342966209AFA8A0000D88C /* HQUser.swift */,
+				D13EEC5620C630F200B366BE /* HQUserInfo.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -331,6 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				D1342962209ABBD70000D88C /* HQNetworkManager.swift */,
+				D13EEC5420C62CEA00B366BE /* HQAPiManager.swift */,
 				D1342964209ADFD20000D88C /* HQKeyChainTools.swift */,
 			);
 			path = Network;
@@ -496,16 +508,20 @@
 				D1342965209ADFD20000D88C /* HQKeyChainTools.swift in Sources */,
 				D15138552092FDC4000EF957 /* APIHeader.swift in Sources */,
 				D134294C209AB2840000D88C /* HQGeneralizeVC.swift in Sources */,
+				D13EEC5120C6212800B366BE /* HQMineCell.swift in Sources */,
 				D134294A209AB2720000D88C /* HQCommunityVC.swift in Sources */,
 				D1342967209AFA8A0000D88C /* HQUser.swift in Sources */,
 				D151385B2093033E000EF957 /* CommenHeader.swift in Sources */,
 				D134294E209AB2920000D88C /* HQMineVC.swift in Sources */,
+				D13EEC5320C62AC800B366BE /* YYMethods.swift in Sources */,
 				D1342946209AB2130000D88C /* HQMainVC.swift in Sources */,
+				D13EEC5720C630F200B366BE /* HQUserInfo.swift in Sources */,
 				D1342926209AAC9F0000D88C /* HQTabBarController.swift in Sources */,
 				D1342948209AB2590000D88C /* HQClassInfoVC.swift in Sources */,
 				D15138422092EF49000EF957 /* AppDelegate.swift in Sources */,
 				D1513861209307F7000EF957 /* EnumHeader.swift in Sources */,
 				D1342963209ABBD70000D88C /* HQNetworkManager.swift in Sources */,
+				D13EEC5520C62CEA00B366BE /* HQAPiManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
